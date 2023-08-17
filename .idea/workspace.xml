@@ -4,17 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3298c2f0-7b8b-4270-a1bb-f05b7a826ad5" name="Changes" comment="" />
+    <list default="true" id="3298c2f0-7b8b-4270-a1bb-f05b7a826ad5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2Tjr1peprhTV7GzUvS6Z2ApqGBg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,9 +40,116 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/ahmed/New/Rest Assured/REST Assured Beginner Tutorial"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qacart" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TC04ResponseLogging.test">
+    <configuration name="TC01ResponseAssertion.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredQACart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qacart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qacart" />
+      <option name="MAIN_CLASS_NAME" value="com.qacart.TC01ResponseAssertion" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC02ResponseExtract.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredQACart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qacart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qacart" />
+      <option name="MAIN_CLASS_NAME" value="com.qacart.TC02ResponseExtract" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC03ResponseExtract.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredQACart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qacart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qacart" />
+      <option name="MAIN_CLASS_NAME" value="com.qacart.TC03ResponseExtract" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC04ResponseLogging.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredQACart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qacart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qacart" />
+      <option name="MAIN_CLASS_NAME" value="com.qacart.TC04ResponseLogging" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC05ResponseLogging.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredQACart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qacart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qacart" />
+      <option name="MAIN_CLASS_NAME" value="com.qacart.TC05ResponseLogging" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TC04ResponseLogging.test" />
+        <item itemvalue="TestNG.TC05ResponseLogging.test" />
+        <item itemvalue="TestNG.TC03ResponseExtract.test" />
+        <item itemvalue="TestNG.TC02ResponseExtract.test" />
+        <item itemvalue="TestNG.TC01ResponseAssertion.test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
