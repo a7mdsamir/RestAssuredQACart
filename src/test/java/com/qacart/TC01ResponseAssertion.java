@@ -19,7 +19,8 @@ public class TC01ResponseAssertion {
                     .assertThat().body( "name" , hasItem("Evan Kling"))  //v zt Evan is a name of all names
                     .assertThat().body( "name" , hasItems("Evan Kling" , "Madiha"))  //v zt Evan & Madiha are names of all names
                     .assertThat().body("name" ,not(hasItem("samir")) ) //v zt samir is not a name of all names
-                    //.assertThat().body( "name" , contains("Tamara Bartell" , "Dawn Reinger"))  //should enter all names arranged
+                    //.assertThat().body( "name" , contains("Tamara Bartell" , "Dawn Reinger"))  //should enter all names arranged (num + order)
+                    //.assertThat().body( "name" , containsInAnyOrder("Tamara Bartell" , "Dawn Reinger"))  //should enter all names (num)
                     .assertThat().body( "name" , not(empty()) ) //v zt key: name empty OR not
                     .assertThat().body( "name" , hasSize(50) ) //v zt key: name has 50 value
                     .assertThat().body( "name.size()" , equalTo(50) ) //v zt key: name has 50 value
