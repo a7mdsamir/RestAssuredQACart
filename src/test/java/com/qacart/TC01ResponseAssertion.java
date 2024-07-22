@@ -28,6 +28,10 @@ public class TC01ResponseAssertion {
                     .assertThat().body( "[0]" , hasValue("2024-07-20T13:45:17.091Z") ) //v zt the 1st item has value = "2023-08-09T05:24:39.630Z"
                     .assertThat().body( "[0]" , hasEntry("createdAt" , "2024-07-20T13:45:17.091Z") ) //v zt the 1st item has key: "createdAt" and value: "2023-08-09T05:24:39.630Z"
 
+                    // more than one assertion in the same line
+                    .assertThat().body( "[0].name" , equalTo("Evan Kling") ,
+                            "name" , hasItem("Evan Kling"))
+                    
                     .log().all();
 
 
